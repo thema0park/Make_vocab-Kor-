@@ -41,12 +41,19 @@ vocab에 없는 단어는 unknown으로 처리 해야 하는 문제가 발생하
 - 위 과정을 웹 크롤러로 자동화 해놓은 프로그램이 있음.
 
 git clone https://github.com/paul-hyun/web-crawler.git
+
 cd web-crawler
+
 pip install tqdm
+
 pip install pandas
+
 pip install bs4
+
 pip install wget
+
 pip install pymongo
+
 python kowiki.py
 
 ## google SentencePiece 설치
